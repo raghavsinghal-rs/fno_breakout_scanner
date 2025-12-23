@@ -26,13 +26,15 @@ using price action, RSI, and volume filters. Alerts are delivered via Telegram.
 - Telegram Bot API
 
 ## How It Works
-1. Fetches daily candle data
-2. Scans NSE F&O stocks
+1. Filter F&O stocks from all listed stock in NSE 
+2. Fetches daily candle data
 3. Applies breakout conditions
-4. Sends alerts to Telegram
+4. Sends alerts to Telegram Bot
 
 ## Setup Instructions
 1. Clone the repository
 2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+
+         pip install -r requirements.txt
+4. Add API credentials 
+5. Run the script after market close
